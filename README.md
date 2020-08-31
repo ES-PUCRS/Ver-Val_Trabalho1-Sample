@@ -41,8 +41,9 @@ class Encomenda{
 2. Executar o comando ´gradle test´
 
 Observações:
+* A primeira execução vai ser mais demorada, dado que o gradle vai baixar as dependencias como o Groovy-all e o JUnit5-Jupiter. As demais execuções serão mais rápidas;
 * Não tenho certeza quanto a necessidade de baixar e instalar o package da linguagem Groovy. Eu tenho instalado, mas acredito que apenas faça a função de me permitir compilar e executar o programa pelo cmd (fora do gradle);
-* Eu utilizo a versão 6.6.1 do Gradle, não tenho certeza até qual versão anterior as dependencias funcionem. Recomendo utilizar a 6.6.1 (última disponível);
+* Eu utilizo a versão 6.6.1 do Gradle (<= 4.5.1 não funcionam), não tenho certeza até qual versão anterior as dependencias funcionam. Recomendo utilizar a 6.6.1 (última disponível).
 
 *Comandos gradle*
 * gradle build - cria o artefato .jar/.war (executando os testes)
