@@ -51,3 +51,7 @@ Observações:
 * gradle test - Executa os testes unitários do projeto
 
 **Todos os comandos gradle compilam o projeto automagicamente**
+
+
+### Links úteis
+* https://groovyconsole.appspot.com
