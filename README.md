@@ -24,6 +24,7 @@ class Encomenda{
 4. Digite o nome da variavel [GRADLE_HOME ou JAVA_HOME]
 5. O valor da variável deverá ser a pasta raiz do package, por exemplo, C:\Program Files\opt\gradle. Clique em Ok
 6. Procure pela variável "Path" e adicione um novo parametro entre '%' com o nome da variável recem criada e adicione \bin no final. Por exemplo, %GRADLE_HOME%\bin
+*Para verificar se funcionou, não utilize terminais abertos antes desse processo. Feche-o e abra um novo terminal.*
 
 ## Verificando o ambiente
 1. Verificar a versão do Java Compiler 'javac -version'
