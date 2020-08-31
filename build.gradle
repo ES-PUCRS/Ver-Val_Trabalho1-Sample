@@ -6,7 +6,6 @@ plugins {
     id 'application'
 }
 
-// **Also defines package names
 application {
     // Define the main class for the application.
     mainClassName = 'verval.oliveiracley.Encomenda'
@@ -45,5 +44,13 @@ test {
                     "\t${result.skippedTestCount} skipped       \n" +
                     "}"
         }
+    }
+
+    filter {
+        //include all classes with Test suffix
+        includeTestsMatching "*Test"
+
+        //include all tests from package
+        includeTestsMatching "verval.oliveiracley.*"
     }
 }
