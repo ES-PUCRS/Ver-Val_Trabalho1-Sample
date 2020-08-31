@@ -15,8 +15,8 @@ class Encomenda {
 
     // O método que a gente quer testar
     static int[] qtdadeBarras(int peso){
-
-
+        def barras = new int[2]
+        barras[0] = 1
     	
     	return barras
     }
