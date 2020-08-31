@@ -45,8 +45,9 @@ Observações:
 * Eu utilizo a versão 6.6.1 do Gradle, não tenho certeza até qual versão anterior as dependencias funcionem. Recomendo utilizar a 6.6.1 (última disponível);
 
 *Comandos gradle*
-* Gradle build - cria o artefato .jar/.war (executando os testes)
-* Gradle run - Executa o programa
-* Gradle test - Executa os testes unitários do projeto
+* gradle build - cria o artefato .jar/.war (executando os testes)
+* gradle clean - Exclui todos os arquivos de compilação e artefatos do projeto
+* gradle run - Executa o programa
+* gradle test - Executa os testes unitários do projeto
 
 **Todos os comandos gradle compilam o projeto automagicamente**
