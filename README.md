@@ -27,9 +27,10 @@ class Encomenda{
 *Para verificar se funcionou, não utilize terminais abertos antes desse processo. Feche-o e abra um novo terminal.*
 
 ## Verificando o ambiente
-1. Verificar a versão do Java Compiler 'javac -version'
-2. Verificar a versão do Gradle 'gradle --version'
-3. Verificar se a variavel de ambiente do sistema está configurada 'echo %JAVA_HOME%'
+1. Abra o terminal (cmd)
+2. Verificar a versão do Java Compiler 'javac -version'
+3. Verificar a versão do Gradle 'gradle --version'
+4. Verificar se a variavel de ambiente do sistema está configurada 'echo %JAVA_HOME%'
 
 ## Como executar o código groovy
 1. Abrir o terminal na pasta raiz do projeto
