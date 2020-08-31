@@ -17,6 +17,19 @@ class Encomenda{
 1. Instalar o Gradle 6.6.1 (adicionar nas variaveis de ambiente do sistema);
 2. Java 1.8.0 (adicionar o JAVA_HOME nas variaveis de ambiente do sistema);
 
+## Adicionando uma nova variavel de ambiente do sistema
+1. Na pesquisa do sistema, procure por "Variaveis de ambiente do sistema" (Edit the system environment variables)
+2. Clique em "Variaveis de ambiente..." (Environment variables...)
+3. Na aba inferior da nova janela, em variaveis do sistema, clique no botão "nova variavel"
+4. Digite o nome da variavel [GRADLE_HOME ou JAVA_HOME]
+5. O valor da variável deverá ser a pasta raiz do package, por exemplo, C:\Program Files\opt\gradle. Clique em Ok
+6. Procure pela variável "Path" e adicione um novo parametro entre '%' com o nome da variável recem criada e adicione \bin no final. Por exemplo, %GRADLE_HOME%\bin
+
+## Verificando o ambiente
+1. Verificar a versão do Java Compiler 'javac -version'
+2. Verificar a versão do Gradle 'gradle --version'
+3. Verificar se a variavel de ambiente do sistema está configurada 'echo %JAVA_HOME%'
+
 ## Como executar o código groovy
 1. Abrir o terminal na pasta raiz do projeto
 2. Executar o comando ´gradle run --args"[Kgs de chocolate]"´
