@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.lang.RuntimeException;
 
 //Drive de teste
-class EncomendaTest {
+class AppTest {
 
     //Classe a ser testada
     def encomenda = new Encomenda()
